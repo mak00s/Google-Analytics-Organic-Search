@@ -21,7 +21,7 @@ javascript:
 
       // 設定
       const time = 1000, // 処理待機時間
-            max = 37 // 登録最大個数
+            max = 15 // 登録最大個数
       ;
 
       $body
@@ -93,41 +93,19 @@ javascript:
               case 0  : register("so-net", "so-net.ne.jp", "query"); break;
               case 1  : register("nifty", "nifty.com", "Text"); break;
               case 2  : register("nifty", "nifty.com", "q"); break;
-              case 3  : register("hi-ho", "hi-ho.excite.co.jp", "search"); break;
-              case 4  : register("odn", "odn.excite.co.jp", "search"); break;
-              case 5  : register("eonet", "eonet.excite.co.jp", "search"); break;
-              case 6  : register("excite", "excite.co.jp", "q"); break;
-              case 7  : register("livedoor", "livedoor.com", "q"); break;
-              case 8  : register("ocn", "ocn.ne.jp", "MT"); break;
-              case 9  : register("j:com", "search.myjcom.jp", "q"); break;
-              case 10 : register("sleipnir", "fenrir-inc.com", "q"); break;
-              case 11 : register("lunascape", "luna.tv", "keyword"); break;
-              case 12 : register("cybozu", "cybozu.net", "Keywords"); break;
-              case 13 : register("sony", "sony.jp", "MT"); break;
-              case 14 : register("fujitsu", "fmworld.net", "q"); break;
-              case 15 : register("fujitsu", "fmworld.net", "Text"); break;
-              case 16 : register("ecnavi", "ecnavi.jp", "Keywords"); break;
-              case 17 : register("pex", "pex.jp", "Keywords"); break;
-              case 18 : register("hao123", "hao123.com", "query"); break;
-              case 19 : register("ceron", "ceron.jp", "q"); break;
-              case 20 : register("お財布.com", "search.osaifu.com", "w"); break;
-              case 21 : register("warau.jp", "warau.jp", "search_word"); break;
-              case 22 : register("net-lavi", "netlavis.azione.jp", "q"); break;
-              case 23 : register("genieo", "search.genieo.com", "q"); break;
-              case 24 : register("funmoods search", "searchfunmoods.com", "q"); break;
-              case 25 : register("fooooo", "fooooo.com", "q"); break;
-              case 26 : register("便利コム", "benri.com", "Keywords"); break;
-              case 27 : register("スマート検索", "smart-search.jp", "Keywords"); break;
-              case 28 : register("jword", "jword.jp", "name"); break;
-              case 29 : register("jword", "jword.jp", "q"); break;
-              case 30 : register("aswidget", "aswidget.com", "Keywords"); break;
-              case 31 : register("wow", "jp.wow.com", "q"); break;
-              case 32 : register("adingo.jp", "adingo.jp", "Keywords"); break;
-              case 33 : register("tnc", "search.tnc.ne.jp", "q"); break;
-              case 34 : register("t-com", "search.t-com.ne.jp", "q"); break;
-              case 35 : register("jiqoo", "search.jiqoo.jp", "q"); break;
-              case 36 : register("auone", "sp-web.search.auone.jp", "q"); break;
-              case 37 : register("green goo", "green.search.goo.ne.jp", "MT"); break;
+              case 3  : register("excite", "excite.co.jp", "q"); break;
+              case 4  : register("livedoor", "livedoor.com", "q"); break;
+              case 5  : register("j:com", "search.myjcom.jp", "q"); break;
+              case 6 : register("sleipnir", "fenrir-inc.com", "q"); break;
+              case 7 : register("lunascape", "luna.tv", "q"); break;
+              case 8 : register("fujitsu", "fmworld.net", "q"); break;
+              case 9 : register("fujitsu", "fmworld.net", "Text"); break;
+              case 10 : register("hao123", "hao123.com", "query"); break;
+              case 11 : register("fooooo", "fooooo.com", "q"); break;
+              case 12 : register("jword", "jword.jp", "name"); break;
+              case 13 : register("jword", "jword.jp", "q"); break;
+              case 14 : register("kingsoft", "kingsoft.jp", "keyword"); break;
+              case 15 : register("ask", "ask.com", "searchFor"); break;
             }
           }
         } else {
