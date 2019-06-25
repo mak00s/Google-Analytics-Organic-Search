@@ -106,6 +106,7 @@ javascript:
               case 13 : register("jword", "jword.jp", "q"); break;
               case 14 : register("kingsoft", "kingsoft.jp", "keyword"); break;
               case 15 : register("ask", "ask.com", "searchFor"); break;
+              case 16 : register("au", "search.auone.jp", "q"); break;
             }
           }
         } else {
