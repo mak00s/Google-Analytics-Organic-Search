@@ -107,6 +107,7 @@ javascript:
               case 14 : register("kingsoft", "kingsoft.jp", "keyword"); break;
               case 15 : register("ask", "ask.com", "searchFor"); break;
               case 16 : register("au", "search.auone.jp", "q"); break;
+              case 17 : reguster("goo.ne", "green.search.goo.ne.jp", "MT"); break;
             }
           }
         } else {
